@@ -1,16 +1,66 @@
-# weatherapp
+# Weather App with Rive Animation
 
-A new Flutter project.
+This is a weather app that provides real-time weather information based on the city entered by the user. The app integrates Rive animations for a more interactive UI and changes the background and icons based on the temperature and weather condition.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- **Rive Animation**: The background and icons change dynamically based on the temperature and weather condition (e.g., sunny, cloudy).
+- **API Integration**: Uses the OpenWeather API to fetch weather data.
+- **State Management**: Managed using **Provider** for efficient state handling.
+- **UI Design**: Basic UI setup with animations for a better user experience.
+- **Functional**: Provides essential weather information including temperature, weather condition, humidity, etc.
 
-A few resources to get you started if this is your first Flutter project:
+## Checklist
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### UI Design
+- A basic UI is created with Rive animation.
+- The background changes based on the temperature.
+- The weather condition changes the icon (e.g., sunny, cloudy) based on the current weather.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### API Integration
+- **OpenWeather API** is integrated to fetch weather data.
+  - API URL: `https://api.openweathermap.org/data/2.5/weather?q=$cityName&units=metric&appid=$_apiKey`
+
+### State Management
+- **Provider** is used for state management to ensure smooth handling of the data.
+
+### Coding Standards
+- Every line and variable is meaningful and easy to modify.
+- Separated widgets, UI, and components for better code understanding and maintainability.
+
+## Functionality
+
+- **City Search**: When the user enters a city name and presses the "Search" button, the app fetches the weather data from the OpenWeather API.
+- **Weather Data Display**:
+  - **City Name**
+  - **Temperature**
+  - **Weather Condition** (e.g., sunny, rainy, cloudy)
+  - **Humidity Level**
+
+## Screenshots
+
+Add some screenshots here if you have any, like the app's UI showing the temperature, background, and weather icons.
+
+## Installation
+
+1. Clone the repository:
+
+   git clone https://github.com/your-username/weather-app.git
+
+Navigate to the project directory:
+cd weather-app
+
+Install dependencies:
+flutter pub get
+
+Run the app:
+flutter run
+
+
+API Key Setup
+To use the OpenWeather API, you need to get an API key. Follow these steps:
+
+Go to OpenWeather.
+Sign up and generate an API key.
+Replace $_apiKey in your project with your generated API key.
+
