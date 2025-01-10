@@ -43,6 +43,9 @@ Here is a demonstration of the app:
 
 [![Watch the video](https://img.youtube.com/vi/e4_DJIvsVLY/0.jpg)](https://youtube.com/shorts/e4_DJIvsVLY)
 
+## Download the APK
+[Click here to download the APK](https://drive.google.com/file/d/1PmDwJP5RWFljAj7HG2MpOOEwKTHXmAXa/view?usp=sharing)
+
 
 ## Installation
 
