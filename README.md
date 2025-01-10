@@ -37,9 +37,12 @@ This is a weather app that provides real-time weather information based on the c
   - **Weather Condition** (e.g., sunny, rainy, cloudy)
   - **Humidity Level**
 
-## Screenshots
+# Weather App
 
-Add some screenshots here if you have any, like the app's UI showing the temperature, background, and weather icons.
+Here is a demonstration of the app:
+
+[![Watch the video](https://img.youtube.com/vi/e4_DJIvsVLY/0.jpg)](https://youtube.com/shorts/e4_DJIvsVLY)
+
 
 ## Installation
 
